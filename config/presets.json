@@ -1,0 +1,57 @@
+{
+  "anime": {
+    "name": "精致动漫",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6,
+    "smea": true,
+    "variety": false,
+    "suffix": "{{{masterpiece}}}, {best quality}, amazing quality, anime style, detailed",
+    "neg": "lowres, bad anatomy, bad hands, text, error, worst quality, low quality, blurry",
+    "isBuiltin": true
+  },
+  "glossy": {
+    "name": "清透润泽",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6,
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:luohuarumeng}, clean style, soft lighting, elegant",
+    "neg": "lowres, bad anatomy, worst quality, blurry, dirty, dark theme",
+    "isBuiltin": true
+  },
+  "game": {
+    "name": "游戏立绘",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 7,
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:lack}, official art, game cg, vibrant colors, sharp lines",
+    "neg": "lowres, bad anatomy, worst quality, blurry, dull colors, sketchy",
+    "isBuiltin": true
+  },
+  "tension": {
+    "name": "肢体张力",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 6.5,
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:miazi}, detailed anatomy, soft shading",
+    "neg": "lowres, bad anatomy, worst quality, blurry, flat lighting, stiff pose",
+    "isBuiltin": true
+  },
+  "impasto": {
+    "name": "精致厚涂",
+    "sampler": "k_euler_ancestral",
+    "steps": 28,
+    "scale": 7,
+    "smea": true,
+    "variety": false,
+    "suffix": "{artist:ratatatat74}, {{dramatic lighting}}, {volumetric light}",
+    "neg": "lowres, bad anatomy, worst quality, blurry, flat lighting, cel shading",
+    "isBuiltin": true
+  }
+}
